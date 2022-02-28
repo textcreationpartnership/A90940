@@ -1,0 +1,394 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Presbiterian catechisme,</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1647</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 16 KB of XML-encoded text transcribed from 8 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A90940</idno>
+            <idno type="STC">Wing P3224</idno>
+            <idno type="STC">Thomason E1182_7</idno>
+            <idno type="STC">ESTC R204936</idno>
+            <idno type="EEBO-CITATION">99864384</idno>
+            <idno type="PROQUEST">99864384</idno>
+            <idno type="VID">170683</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A90940)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 170683)</note>
+            <note>Images scanned from microfilm: (Thomason Tracts ; 256:E1182[7])</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The Presbiterian catechisme,</title>
+               </titleStmt>
+               <extent>15, [1] p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed for Richard Burton,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1647.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Annotation on Thomason copy: "June 3d".</note>
+                  <note>Reproduction of the original in the British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Presbyterianism --  Catechisms --  Early works to 1800.</term>
+               <term>Catechisms, English --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2010-03</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2010-04</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-05</date>
+            <label>Pip Willcox</label>Sampled and proofread</change>
+         <change>
+            <date>2010-05</date>
+            <label>Pip Willcox</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:170683:1" rendition="simple:additions"/>
+            <p>THE PRESBITERIAN <hi>CATECHISME,</hi>
+               <q>
+                  <bibl>
+                     <hi>PSAL. 116: verſe 12.</hi>
+                  </bibl>
+                  <p>What ſhall <hi>J</hi> render to the Lord for all his benifits towards mee?</p>
+                  <bibl>
+                     <hi>Verſe 13.</hi>
+                  </bibl>
+                  <p>
+                     <hi>I</hi> will take the Cup of ſalvation, and call upon the name of the Lord.</p>
+               </q>
+            </p>
+            <p>LONDON, Printed for <hi>Richard Burton.</hi> 1647</p>
+         </div>
+      </front>
+      <body>
+         <div type="catechism">
+            <pb facs="tcp:170683:2"/>
+            <pb n="3" facs="tcp:170683:2"/>
+            <head>THE PRESBYTERIAN <hi>CATECHISME:</hi>
+            </head>
+            <p>
+               <hi>
+                  <seg rend="decorInit">W</seg>Hat Religion do you profeſs to be the trueſt, and moſt grounded of the Holy Scriptures?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> The Proteſtant and Chriſtian Religion.</p>
+            <p>Q. <hi>What is that Chriſtian Religion?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> To know and acknowledg the only true God and Ieſus Chriſt our Crucified Lord and Saviour, whom he hath ſent to redeeme, miſerable men, duſt and aſhes, wormes and no men, from Hell, Death and Damnation if we lay hold on him by ſpeedy Faith and unfeigned repentance.</p>
+            <p>Q. <hi>How do'ſt thou know the Love of God to thee and other notorius, Sinners, as thy <gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>elfe?</hi>
+            </p>
+            <p>
+               <pb n="4" facs="tcp:170683:3"/>A. God hath promiſed, that whoſoever beleeveth and repents of his ſinnes from the bottom of his heart ſhal finde mercy through Chriſt Ieſus.</p>
+            <p>
+               <hi>Q. <hi>How knoweſt thou the love of God to thee?</hi>
+               </hi>
+            </p>
+            <p>A. In that he ſo dearely lou'd mankind, that he ſent his only begotten Son, that who<g ref="char:EOLhyphen"/>ſoever beleeveth in him ſhould not periſh but have everlaſting life. <hi>Iohn the 3. verſe 16,</hi>
+            </p>
+            <p>
+               <hi>Q. How knoweſt thou that God had a ſon.</hi>
+            </p>
+            <p>A. I know it becauſe he was manifeſt to us</p>
+            <p>
+               <hi>Q Prove that.</hi>
+            </p>
+            <p>A. Without controverſie, great is the miſt<g ref="char:EOLhyphen"/>ery of godlineſſe, God was manifeſt in the fleſh, Iuſtified in the ſpirit, ſeen of Angells, preached unto the Gentiles beleeved on in the world, &amp; received up to glory. <hi>Tim the 3. verſe 16.</hi> And ſaith St. Iohn the word was made fleſh and dwell amongſt us.</p>
+            <p>
+               <hi>Q. Tell me what is the office of Chriſt?</hi>
+            </p>
+            <p>A. To be the alone mediator, Interceſſor, and advocate betweene God and Man, to re<g ref="char:EOLhyphen"/>concile us to our God, and to worke our ſal<g ref="char:EOLhyphen"/>vation, and likewiſe he is called Ieſus, that is a Saviour becauſe he came to ſave his peo<g ref="char:EOLhyphen"/>ple from their ſins. And likewiſe he is called Chriſt, which is annointed, becauſe he is <pb n="5" facs="tcp:170683:3"/> the annointed of God, with all gifts and graces of the holy Spirit, to be a Prophet Prieſt and King, for his people. And like<g ref="char:EOLhyphen"/>wiſe for me.
+<hi>1. Timothy 2.5. Heb. 9.15. Iob. 14.6. Mathew: the 21. Eſay: 61.1. Acts.
+4.26: Luke the 4th. 18: Heb: the 1. 9th.</hi>
+            </p>
+            <p n="1">
+               <hi>1.</hi> His Preiſthood, was the firſt part of his mediation conſiſting of two parts.</p>
+            <p n="2">
+               <hi>2.</hi> By his ſatisfaction for ſin.</p>
+            <p n="3">
+               <hi>3.</hi> By performing that obedience which we did owe.</p>
+            <p n="4">
+               <hi>4.</hi> By ſuffering that puniſhment which was due to our ſinnes.</p>
+            <p>
+               <hi>Q. What are the parts of Chriſts ſatis<g ref="char:EOLhyphen"/>faction by his obedience?</hi>
+            </p>
+            <p>A. <hi>1.</hi> His ſuffering. <hi>Phil. 25. Peter 1<gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>.24 Iob. 6.33.34.</hi>
+            </p>
+            <p n="2">
+               <hi>2.</hi> His perfect Righteouſneſs.</p>
+            <p>By the firſt our Lord and Saviour Chriſt Ieſus died for our ſinnes. By the Second he purchaſed righteouſneſſe for true humble &amp; penitent Sinners, both which are neceſſary for our Iuſtification.</p>
+            <p>
+               <hi>Q. How did our Saviour ſatisfie by his ſuffering?</hi>
+            </p>
+            <p>A. In two wayes.</p>
+            <p n="1">
+               <hi>1.</hi> in ſoule by drinking the full Cup of Gods wrath by which he felt unſpeakeable vexati<g ref="char:EOLhyphen"/>on greifes, feares of mind, feeling as it were the pangs of hell.</p>
+            <p n="2">
+               <pb n="6" facs="tcp:170683:4"/>
+               <hi>2.</hi> In body by Scourging, Spitting, Buffe<g ref="char:EOLhyphen"/>ting (as it is recorded in the Story of his paſsion) And laſtly Death, that moſt re<g ref="char:EOLhyphen"/>proachfull, and Ignominious death of The Croſſe <hi>Phil 2, 8.</hi>
+            </p>
+            <p>
+               <hi>Q. Now tell me How many Sacraments there be?</hi>
+            </p>
+            <p>A <hi>1.</hi> Baptiſme In the place of Circumci<g ref="char:EOLhyphen"/>ſion.</p>
+            <p n="2">
+               <hi>2.</hi> The Supper of the Lord Anſwering to the paſſover. <hi>Rom. 4.1. Geneſis 27.10.11. Cor 10.<gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>1.12.13.</hi>
+            </p>
+            <p>Baptiſme is the firſt Sacrament which by the waſhing of water repreſenteth to us the Powerfull waſhing of the blood and ſpirit of Chriſt ſealing unto them which are within Gods covenant, their birth, in Chriſt, &amp; en<g ref="char:EOLhyphen"/>trance into Chriſtianity. <hi>Mat 26.26:8:19. Baptiſme Eph. 5.26 1 Cor 6.11. Heb 10.<gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>2.</hi>
+            </p>
+            <p>
+               <hi>Q. To whom is Baptiſme Effectual?</hi>
+            </p>
+            <p>A <hi>1</hi> The Church not only Baptizeth thoſe of riper yeares as pagans which are brought within the Church, and teſtifie their under<g ref="char:EOLhyphen"/>ſtanding in Chriſtianity, profeſſe their faith in Chriſt Ieſus and in the pretious promiſes of remiſſion of ſins by his blood and their earneſt de<gap reason="illegible" resp="#OXF" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ire to be ſealed with Baptiſme to ſtrengthen their Soules in faith, and all this with ſincerity. <hi>2. Acts: 8th 37.</hi>
+            </p>
+            <p n="2">
+               <hi>2.</hi> But Infants alſo borne of beleeving pa<g ref="char:EOLhyphen"/>rents
+<pb n="7" facs="tcp:170683:4"/> and are within the Covenant, whereby they have a right to the ſeale thereof &amp; this effectuall to thoſe Infants who belong to the Election of grace.</p>
+            <p>
+               <hi>Q. How can Infants be capable of the grace of Baptiſme?</hi>
+            </p>
+            <p>A. Though they be not capable by that way the grown are: Yet it followeth not that they are not capable another way, we are to diſtinguiſh between the gift convigh<g ref="char:EOLhyphen"/>ed, and the manner of conveighing it: Faith is not of abſolute neceſſity to all Gods elect, but to thoſe only to whom he affords meanes to beleeve, it's the application of Chriſts righteouſneſs, not our apprehending it that Iuſtifies us God can ſupply the defect of Faith by his ſanctifing Spirit, which can do all things on our part inſtead of that which faith ſhould do, he hath ſaid of Infants, to the<g ref="char:cmbAbbrStroke">̄</g> belongs the kingdome of God. God knowes to ſettle it upon them though he tyes us to meanes, yet he tyeth not himſelfe.</p>
+            <p>
+               <hi>Q. Are bread and wine Changed in the Sacrament into the body and blood of Chriſt?</hi>
+            </p>
+            <p>A. They are not changed in nature but In uſe. <hi>Cor 1.10</hi> By Eating and Drinking of it we have communion with our ſaviour Chriſt, of whom we are as verily pertakers by a livly Faith. as of the bread and of the wine by eating and drinking them, and thus wee ſay <pb n="8" facs="tcp:170683:5"/> they are chang'd by uſe becauſe Being ſepa<g ref="char:EOLhyphen"/>rated from a common uſe they are conſecra<g ref="char:EOLhyphen"/>ted to ſigne and ſeale to us our ſpirituall nou<g ref="char:EOLhyphen"/>riſhment by the body and blood of Chriſt Ie<g ref="char:EOLhyphen"/>ſus.
+<hi>Luke the 22.19.</hi>
+            </p>
+            <p>
+               <hi>Q What is the Sacrament of the Lords Supper?</hi>
+            </p>
+            <p>A. It is the ſecond Sacrament of the Goſ<g ref="char:EOLhyphen"/>pell wherein the outward Elements of bread and wine ſanctified and exhibited by the Mi<g ref="char:EOLhyphen"/>niſter and rightly received by the communi<g ref="char:EOLhyphen"/>cants, aſſurance is given to thoſe that are in<g ref="char:EOLhyphen"/>grafted into Chriſt of their continuance in him and receiving nouriſhment by him unto eternall Life.</p>
+            <p>
+               <hi>Q. <hi>Why is it called the Lords Supper?</hi>
+               </hi>
+            </p>
+            <p>A. Not that he appointed a ſupper to us, but becauſe he ſitting at his laſt ſupper or<g ref="char:EOLhyphen"/>deyned it in ſtead of the paſſover and gave charge for continuance of it till his ſecond comming <hi>Cor
+11.20.</hi>
+            </p>
+            <p>
+               <hi>Q. <hi>Are the bread and wine changed to the body and blood of Chriſt?</hi>
+               </hi>
+            </p>
+            <p>A. They are not changed in nature but in uſe, by the eating and drinking of it we have Communion with our Saviour Chriſt, of whom we are as verily pertakers by a live<g ref="char:EOLhyphen"/>ly Faith as of the bread and wine by ea<g ref="char:EOLhyphen"/>ting and drinking them and thus we ſay they are changed in uſe becauſe being ſeparate <pb n="9" facs="tcp:170683:5"/> from a common uſe, they are conſecrated to ſigne and ſeale to us our ſpirituall nouriſh<g ref="char:EOLunhyphen"/>ment and grouth by the body an blood of Chriſt Ieſus, therefore the bread &amp; wine are not the true body and blood of Chriſt, but the ſignes and tokens of them, as in Baptiſme, water is only a ſigne of Chriſts blood. Not his blood <hi>1 Cor: 10.19: Luke
+22.19: 1 Cor 10.3.4.</hi>
+            </p>
+            <p>Q, <hi>(The Uſe) What are the ſpeciall ends and uſes for which it was ordained?</hi>
+            </p>
+            <p>
+               <hi>A. 1.</hi> To call to mind the memorie and uer, tue of Chriſts death.</p>
+            <p n="2">
+               <hi>2.</hi> To confirme our Faith to encreaſe our love to God, our Ioy in the holy ghoſt peace of conſcience hope of eternall life, and other Gods graces in us.</p>
+            <p n="3">
+               <hi>3.</hi> To quicken our hearts to all holy duties, our thankfullneſſe to God for his mercies in Chriſt Ieſus.</p>
+            <p n="4">
+               <hi>4.</hi> To keepe us in obedience to God and to unite us in communion with Chriſt.</p>
+            <p>
+               <hi>Q. How are we to prepare our ſelves be<g ref="char:EOLhyphen"/>fore we receive it.</hi>
+            </p>
+            <p>A, By due tryall of our ſoules whether we be fit partakers of ſo great a miſtery, and fit<g ref="char:EOLhyphen"/>ting our harts thereto.</p>
+            <p n="2">
+               <hi>2.</hi> By Examining our knowledge in it, and our need of it.</p>
+            <p n="3">
+               <hi>3.</hi> by examining our faith, and by true repen<g ref="char:EOLhyphen"/>tance,
+<pb n="10" facs="tcp:170683:6"/> a true loue of God <hi>Zach: 12 10. 1. Cor. 10.25.12.28. Rom. 4.11.
+1 Cor. 10.3.2. Cor: 23.5 Heb. 10.22.</hi>
+            </p>
+            <p n="4">
+               <hi>4.</hi> By freeing our hearts from mallice <hi>1. Cor.
+16.14.</hi>
+            </p>
+            <p n="5">
+               <hi>5.</hi> By Invocation for a bleſsing upon it.</p>
+            <p>
+               <hi>Q. What is to be done in the preſent act<g ref="char:EOLhyphen"/>tion?</hi>
+            </p>
+            <p>A. <hi>1.</hi> We muſt uſe a reverend geſture and attention.</p>
+            <p n="2">
+               <hi>2.</hi> We muſt receive it with hearts eleva<g ref="char:EOLhyphen"/>ted to God,</p>
+            <p n="3">
+               <hi>3.</hi> We muſt uſe thankſgiving, offering up our hearts and ſoules to god. <hi>Rom 12.1.</hi>
+            </p>
+            <p>
+               <hi>Q. What after the action?</hi>
+            </p>
+            <p>A. We muſt praiſe the Lord for ſo great bene<g ref="char:EOLhyphen"/>fits And pray for his grace to keepe us from new ſinnes and that we return not to the old.</p>
+            <p>
+               <hi>Q: <hi>What is cenſures?</hi>
+               </hi>
+            </p>
+            <p>A. The Iudgement of the Church ratifying the Threats of the goſpell for abuſe of the word and ſacraments.</p>
+            <p n="1">
+               <hi>1.</hi> Admonition of thoſe that ſin openly <hi>Mat.
+18.15. &amp;c:</hi>
+            </p>
+            <p n="2">
+               <hi>2.</hi> By ſuſpenſion of them from ſome exer<g ref="char:EOLhyphen"/>ciſe of Religion, as ſacraments.</p>
+            <p n="3">
+               <hi>3.</hi> If they amend not, to cut them off from the Church by excommunication and delive<g ref="char:EOLhyphen"/>ring them to Satan.</p>
+            <p>
+               <hi>Q. <hi>What is meant by the laſt Iudgement?</hi>
+               </hi>
+            </p>
+            <p>
+               <pb n="11" facs="tcp:170683:6"/>A. The pronouncing and executing the Irrevocable ſentence of abſolution or con<g ref="char:EOLhyphen"/>demnation.</p>
+            <p n="1">
+               <hi>1.</hi> Partly upon every man in particular at the houre of his death <hi>Heb: 9.21</hi>
+            </p>
+            <p n="2">
+               <hi>2.</hi> Fully and generally upon all men at the ſecond comming of Chriſt. <hi>Act 17.13.</hi>
+            </p>
+            <p>
+               <hi>Q. How are men Iudged at the houre of Death?</hi>
+            </p>
+            <p>A <hi>1.</hi> God at that inſtant pronounceth, and the conſcience apprehendeth the ſentence of bleſsing and curſing <hi>Heb 9
+27.</hi>
+            </p>
+            <p n="2">
+               <hi>2.</hi> The Soule is by the power of God and Miniſterie of angels immediately conveyed into the ſtate of happineſſe or miſery to re<g ref="char:EOLhyphen"/>maine til the reſurrection, &amp; thenceforth both ſoule and body for ever. <hi>Luke, 16.22.23.26. Ecl, 11, 3.</hi>
+            </p>
+            <p>
+               <hi>Q What is the generall and finall Iudge<g ref="char:EOLhyphen"/>men.t?</hi>
+            </p>
+            <p>A The generall Aſsiſe of the whole world wherein all mens lives that ever were, are, or ſhall be, being duely examin'd every one ſhal receive according to his workes.</p>
+            <p n="1">
+               <hi>1.</hi> The wicked ſhall be condemned for the merit of their workes <hi>Ro. 6.23,</hi>
+            </p>
+            <p n="2">
+               <hi>2.</hi> The godly ſhall be pronounced Iuſt Be<g ref="char:EOLhyphen"/>cauſe their workes though imperfect do prove their faith (by which they lay hold on Chriſt and his righteouſnes) to be a true faith
+<pb n="12" facs="tcp:170683:7"/> as working by love in all parts of Obedience <hi>Ia. 2.18. Gal:
+5.6.</hi>
+            </p>
+            <p>
+               <hi>Q. What ſhall be the eſtate of the Reprobates in Hell?</hi>
+            </p>
+            <p n="1">
+               <hi>1.</hi> Everlaſting torments of Body, and an<g ref="char:EOLhyphen"/>guiſh of ſoule.</p>
+            <p n="2">
+               <hi>2.</hi> Expulſion from the favourable preſence of god, and the glorious fellowſhip of Chriſt &amp; his Saints.</p>
+            <p n="3">
+               <hi>3.</hi> Vtter darkneſſe in that horrible Dungeon.</p>
+            <p n="4">
+               <hi>4.</hi> wéeping and gnaſhing of téeth.</p>
+            <p n="5">
+               <hi>5.</hi> with the worme that never dieth and the fire that never goeth out. <hi>Rom. 29. Mat. 8 22.31.4 1. Iſay. 66.24.</hi>
+            </p>
+            <p>
+               <hi>Q. What ſhall be the eſtate of the Elect in Heaven?</hi>
+            </p>
+            <p>A. <hi>1.</hi> Everlaſting bleſſedneſſe and glory in Soule and body.</p>
+            <p n="2">
+               <hi>2.</hi> Fréedome from all infirmities, and imper<g ref="char:EOLhyphen"/>fections.</p>
+            <p n="3">
+               <hi>3.</hi> They ſhall be endued with perfect wiſedom and holineſſe.</p>
+            <p n="4">
+               <hi>4.</hi> Poſſeſſed with all pleaſures at the right hand of God,</p>
+            <p n="5">
+               <hi>5.</hi> Seated in thrones of Maieſtie.</p>
+            <p n="6">
+               <hi>6.</hi> Crowned with Crownes of glory.</p>
+            <p n="7">
+               <hi>7.</hi> Filled with the glorious preſence of God &amp; the Lamb Chriſt Ieſus.</p>
+            <p n="8">
+               <hi>8.</hi> in the Company of inumerable angels and holy Saints. <hi>1. Cor. 13.12. Pſal. 16.11. Rev. 8.21.2. Tim 4.17 Heb 12
+22</hi>
+            </p>
+            <p>
+               <hi>Q. What ſhall follow?</hi>
+            </p>
+            <p>A. Chriſt ſhall deliver up that diſpenſatory Kingdome (which he receaved for the ſubduing of his enemies and accompliſhing the ſalvati<g ref="char:EOLhyphen"/>on <pb n="13" facs="tcp:170683:7"/> of his Church) unto God the Father, and God ſhall be all in all for Eternity. <hi>2. Cor 24.28.</hi>
+            </p>
+            <p>Séeing then al thoſe things muſt be diſſolved, what manner of perſons ought we to be? let us give diligence, that we may
+<gap reason="illegible" resp="#OXF" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> of him in peace without ſpot and blameleſſe. <hi>2. Pet: 3.11.14.</hi>
+            </p>
+            <p>Bleſſed is he whom the Lord ſhall finde pre<g ref="char:EOLhyphen"/>pared for his comming, for he ſhall ſay to him well done thou good and faithfull ſervant, enter into Thy Maſters Ioy. <hi>Luke 12.43. Mar 25.21.</hi>
+            </p>
+            <div type="prayer">
+               <pb n="14" facs="tcp:170683:8"/>
+               <head>A Prayer.</head>
+               <p>
+                  <hi>O</hi> Eternall God which dwelleſt in the high<g ref="char:EOLhyphen"/>eſt Heavens, Looke downe upon us duſt and aſhes, who at this preſent deſire thy moſt gracious bleſsing to deſcend down upon theſe diſtreſſed Churches, of <hi>England, Scotland,</hi> and miſerable <hi>Ireland,</hi> Lord if it be thy gracious wil ſay now it is enough, ſuffer not the ſword any longer to devoure one another, and Lord I be<g ref="char:EOLhyphen"/>ſeech thee let us heare no more the ſound of the Trumpets, the noyſe of the Drum, nor the ala<g ref="char:EOLhyphen"/>rum of Warre, but that the voice of the Turtle may be heard in our ſtreetes. Subdue all Sciſ<g ref="char:EOLhyphen"/>me, Faction, and Antichrist that man of ſin, and Compoſe all our unhappy differences both in Church and Common wealth, and make us to be all of one minde fearing God and hating wicked<g ref="char:EOLhyphen"/>neſſe, &amp; as thy Sons Coate was without rent or ſeame. So let thy Church be without Schiſme and diviſion, that wee may all be of one ſheepe<g ref="char:EOLhyphen"/>fold under one ſheepheard Christ Ieſus, Lord heare our prayers, and make us all true ſervants <pb n="15" facs="tcp:170683:8"/> to thee, Loyall ſubjects to our gracious King, &amp; loving and Charitable one toward another, and bring us from one degree of grace to another, from one Sacrament to another, from one ſab<g ref="char:EOLhyphen"/>both to another, til at length thou bring us to that Everlaſting Sabbath in thine Everlaſting Kingdome: Where Angels ſing, Halelujah, ho<g ref="char:EOLhyphen"/>nour and glory and praiſe to him that ſits on the Throne, and to the Lambe Chriſt Ieſus, to whom be all honnour glory and prayſe and pow<g ref="char:EOLhyphen"/>er, and ſtrength and Salvation, by men and by Angels, In this world, and the world to Come.</p>
+               <closer>Amen.</closer>
+            </div>
+            <trailer>FJNJS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
